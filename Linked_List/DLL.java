@@ -72,7 +72,7 @@ public class DLL {
             }
             node = node.next;
         }
-        return null;
+        return node;
     }
     public void insertmiddle(int after, int val){
         Node p = find(after);
